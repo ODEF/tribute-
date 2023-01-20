@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+main p{
+    width: 70%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+main h3,  p{
+    text-align: center;
+}
+main ul{
+    margin: 0 auto;
+    width: 70%;
+    max-width: 550px;
+}
+
+main > ul > li{
+    margin: 16px 0;
+    line-height: 1.7;
+}

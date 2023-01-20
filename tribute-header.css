@@ -1,0 +1,45 @@
+
+.img-div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4%;
+}
+
+.img-div image{
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+header h1{
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+@media (max-width: 460px) {
+    h1{
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+.container{
+    width: 100%;
+    padding: 0.2rem;
+    margin: 0 auto;  
+    color: #333;
+    background-color: #eee;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+html{
+    font-size: 1rem;
+ 
+}
